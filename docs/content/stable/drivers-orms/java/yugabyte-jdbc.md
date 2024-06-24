@@ -34,6 +34,13 @@ type: docs
   </li>
 
   <li >
+    <a href="../yb-r2dbc/" class="nav-link">
+      <i class="icon-postgres" aria-hidden="true"></i>
+      YugabyteDB R2DBC Smart Driver
+    </a>
+  </li>
+
+  <li >
     <a href="../postgres-jdbc/" class="nav-link">
       <i class="icon-postgres" aria-hidden="true"></i>
       PostgreSQL JDBC Driver
@@ -74,7 +81,7 @@ If you are using [Maven](https://maven.apache.org/guides/development/guide-build
 <dependency>
   <groupId>com.yugabyte</groupId>
   <artifactId>jdbc-yugabytedb</artifactId>
-  <version>42.3.0</version>
+  <version>42.3.5-yb-5</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
@@ -92,7 +99,7 @@ Install the added dependency using `mvn install`.
 If you are using [Gradle](https://docs.gradle.org/current/samples/sample_building_java_applications.html), add the following dependencies to your `build.gradle` file:
 
 ```java
-implementation 'com.yugabyte:jdbc-yugabytedb:42.3.0'
+implementation 'com.yugabyte:jdbc-yugabytedb:42.3.5-yb-5'
 implementation 'com.zaxxer:HikariCP:4.0.3'
 ```
 
